@@ -1,6 +1,5 @@
 from requests_oauthlib import OAuth1Session
 import json
-import requests
 import secret
 
 session = OAuth1Session(secret.API_KEY, secret.API_SECRET_KEY,
