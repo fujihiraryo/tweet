@@ -8,4 +8,5 @@ setup(
             "tweet=tweet.app:tweet",
         ]
     },
+    py_modules=["tweet.app"],
 )
