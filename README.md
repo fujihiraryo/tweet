@@ -22,5 +22,5 @@ export TWITTER_ACCESS_TOKEN_SECRET={Your Access token secret}
 ## usage
 
 ```bash
-tweet Hello, World!!
+tweet Hello, World!
 ```
