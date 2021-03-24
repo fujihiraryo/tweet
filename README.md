@@ -1,15 +1,26 @@
-# twitter-cli
-## 準備   
-twitter.pyと同じディレクトリにsecret.pyを作成し、
-```
-API_KEY="xxxxxxxxx"
-API_SECRET_KEY="xxxxxxxxxx"
-ACCESS_TOKEN="xxxxxxxxxx"
-ACCESS_TOKEN_SECRET="xxxxxxxxxxx"
-```
-を記載して保存する。  
+# tweet  
 
-## 使い方  
+## install
+
+```bash
+pip3 install git+https://github.com/fujihiraryo/twitter-cli
 ```
-python twitter.py
+
+## set up
+
+Create an APP at [Twitter Developer](https://developer.twitter.com/en/apps).
+
+Set environment variables.
+
+```bash
+export TWITTER_API_KEY={Your API key}
+export TWITTER_API_SECRET_KEY={Your API secret key}
+export TWITTER_ACCESS_TOKEN={Your Access token}
+export TWITTER_ACCESS_TOKEN_SECRET={Your Access token secret}   
+```
+
+## usage
+
+```bash
+tweet Hello, World!!
 ```
