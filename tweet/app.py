@@ -13,3 +13,4 @@ def tweet():
     tweet_url = "https://api.twitter.com/1.1/statuses/update.json"
     text = sys.argv[1]
     session.post(tweet_url, params={"status": text})
+    print(f"Successfully posted: {text}")
