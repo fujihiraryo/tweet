@@ -24,3 +24,9 @@ export TWITTER_ACCESS_TOKEN_SECRET={Your Access token secret}
 ```bash
 tweet Hello, World!
 ```
+
+## uninstall
+
+```bash
+pip3 uninstall tweet
+```
