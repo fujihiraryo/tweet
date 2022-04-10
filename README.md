@@ -3,7 +3,7 @@
 ## install
 
 ```bash
-pip3 install git+https://github.com/fujihiraryo/tweet
+pip install git+https://github.com/fujihiraryo/tweet
 ```
 
 ## set up
