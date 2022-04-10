@@ -28,5 +28,5 @@ tweet Hello, World!
 ## uninstall
 
 ```bash
-pip3 uninstall tweet
+pip uninstall tweet
 ```
